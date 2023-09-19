@@ -1,0 +1,27 @@
+{
+	"name": "xrpl-wallet-console",
+	"version": "1.0.0",
+	"description": "A command line (CLI) tool to interact with the XRP Ledger",
+	"homepage": "https://github.com/funydude1958/xrpl-wallet-console#readme",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/funydude1958/xrpl-wallet-console.git"
+	},
+	"author": {
+		"name" : "FunyDude1958",
+		"url" : "https://github.com/funydude1958/"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/funydude1958/xrpl-wallet-console/issues"
+	},
+	"main": "xrpl_cmd/account_new/new.js",
+	"dependencies": {
+		"xrpl": "^2.5.0",
+		"bcrypt": "^5.1.0",
+		"asn1.js": "^5.4.1",
+		"qrcode": "^1.2.0",
+		"express": "^4.16.2",
+		"@james-proxy/james-browser-launcher": "^1.3.4"
+	}
+}

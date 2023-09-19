@@ -3,10 +3,6 @@ This is a Node.js command line (CLI) tool to interact with the XRP Ledger.
 
 You can use it to manage your accounts or for test purposes to study interaction with the XRP Ledger.
 
-**Content**
-
-[TOC]
-
 ## Features
 
 - Generate new account (wallet) address in Offline mode (aka "paper wallet");
@@ -67,7 +63,7 @@ node account_info/account_balance
 ```
 
 ### Online signing and submitting
-*** !!! CAUTION !!! ***
+***!!! CAUTION !!!***
 ***Be careful when using keys on a device connected to the Internet or used by other people! Your keys can be stolen instantly.***
 
 To sign and submit immediately, run files ending in `_submit`
